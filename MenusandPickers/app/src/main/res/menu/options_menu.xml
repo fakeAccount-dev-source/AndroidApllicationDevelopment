@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Settings"
+        android:id="@+id/setting"
+        app:showAsAction="never"/>
+    <item
+        android:title="Favourite"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        app:showAsAction="always"
+        android:id="@+id/favourite"/>
+
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_launcher_background"
+        app:showAsAction="ifRoom"
+        android:title="Contact" />
+    <item
+        android:id="@+id/share"
+        android:title="Share" />
+    <item
+        android:id="@+id/alert"
+        android:title="Alert Dialog" />
+    <item
+        android:id="@+id/search"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search" />
+</menu>

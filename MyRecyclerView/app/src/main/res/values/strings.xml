@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyRecyclerView</string>
+    <string-array name="titles">
+        <item>Android</item>
+        <item>Biology</item>
+        <item>C-Language</item>
+        <item>D-Jango</item>
+        <item>Environment Studies</item>
+        <item>Flutter</item>
+        <item>Go Lang</item>
+        <item>Hacking</item>
+        <item>Internet</item>
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Lapse</item>
+        <item>Mono</item>
+        <item>Network</item>
+        <item>Oreo</item>
+        <item>Protocol</item>
+    </string-array>
+</resources>

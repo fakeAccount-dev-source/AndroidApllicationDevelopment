@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RatingBar
+        style="@style/design"
+        android:id="@+id/rb"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        style="@style/design"
+        android:id="@+id/result_rb"
+        android:text="@string/result_rating"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        />
+    <SeekBar
+        style="@style/design"
+        android:id="@+id/sb"
+        android:layout_width="match_parent"
+        android:progress="40"
+        android:max="100"
+        />
+    <TextView
+        style="@style/design"
+        android:id="@+id/sb_result"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/result_seekbar"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/iv"
+        android:src="@drawable/ic_android_black_24dp"
+        tools:ignore="ContentDescription" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ib"
+        android:layout_marginHorizontal="150dp"
+        android:src="@drawable/ic_baseline_check_24"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

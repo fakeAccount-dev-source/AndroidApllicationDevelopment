@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UiComponentsDemo</string>
+    <string name="result_rating">Result Rating</string>
+    <string name="result_seekbar">Result Seekbar</string>
+</resources>

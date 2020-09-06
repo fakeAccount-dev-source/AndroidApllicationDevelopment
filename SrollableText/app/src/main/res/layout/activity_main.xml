@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/photo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   V MAHESH"
+        android:textSize="30sp"
+        android:textColor="#213BCD"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B.Tech"
+        android:gravity="right|end"
+        android:textColor="#D61818"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Educatonal Details:"
+        android:textAllCaps="true"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I have completed my engineering in Gitam Uniersity in 2022.\nI have completed my intermediate in chaitanya in 2018.\nI have completed my ssc in 2016 in Montessoi High School."
+        android:textColor="#2940C1"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technical Skills:"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C,C++,JAVA,PYTHON,HTML,CSS,JS,ANDROID,KOTLIN"
+        android:textColor="#454F83"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="languages:"
+        android:textAllCaps="true"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telugu,English"
+        android:textColor="#5568E4"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="about me:"
+        android:textAllCaps="true"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="phone|web|email"
+        android:text="@string/aboutme"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#25BC2B"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#EA9F32"/>
+</LinearLayout>
+</ScrollView>

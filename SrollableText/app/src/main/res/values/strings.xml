@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Srollable Text</string>
+    <string name="aboutme">
+        <b>I like watching movies on www.google.com</b>\n Mobile No:9948628751 \n Emal Id:121810313056@gitam.in\n<i> Personal Email Id:\n vengotimahesh143@gmail.com </i>
+        <i>\nI like developing</i>
+    </string>
+</resources>
